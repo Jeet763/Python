@@ -1,3 +1,5 @@
+# Find changed and missing records
+
 api1 = [
     {"id":1,"name":"A"},
     {"id":2,"name":"B"}
@@ -5,7 +7,8 @@ api1 = [
 
 api2 = [
     {"id":1,"name":"A"},
-    {"id":2,"name":"C"}
+    {"id":2,"name":"C"},
+    {"id":3,"name":"C"}
 ]
 
 api1_dict = {}
