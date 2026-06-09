@@ -13,3 +13,7 @@ x.__next__()    # output => 2
 x.__next__()    # output => 3
 x.__next__()    # output => 5
 x.__next__()    # output => 
+
+## iterating using loop
+for i in fib(10):
+   print(i)    # output => 0 1 1 2 3 5 8
